@@ -8,6 +8,7 @@ public class Bicycle extends Vehicle{
 			// Attributes
 			// ========================================
 			
+			
 			private boolean hasBasket = false;
 			private String sound = "RING!";
 			private int lights = 2;
@@ -18,8 +19,8 @@ public class Bicycle extends Vehicle{
 			// Constructors
 			// ========================================
 			
-			public Bicycle(String color, int speed, int noOfWheels, boolean hasBasket, String sound, int lights) {
-				super(color, speed, noOfWheels);
+			public Bicycle(int id, String color, int speed, int noOfWheels, boolean hasBasket, String sound, int lights) {
+				super(id, color, speed, noOfWheels);
 				this.hasBasket = hasBasket;
 				this.sound = sound;
 				this.lights = lights;
@@ -80,6 +81,20 @@ public class Bicycle extends Vehicle{
 			public void setLights(int lights) {
 				this.lights = lights;
 			}
+			
+			public int getId() {
+				return id;
+			}
+
+
+
+
+			public void setId(int id) {
+				this.id = id;
+			}
+
+
+			
 			
 			
 			

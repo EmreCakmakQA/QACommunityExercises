@@ -6,7 +6,7 @@ public class Vehicle {
 	// ========================================
 	// Attributes
 	// ========================================
-	
+	protected int id;
 	private String color;
 	private int speed;
 	private int noOfWheels;
@@ -18,8 +18,9 @@ public class Vehicle {
 	// Constructors
 	// ========================================
 	
-	public Vehicle(String color, int speed, int noOfWheels) {
+	public Vehicle(int id, String color, int speed, int noOfWheels) {
 		super();
+		this.id = id;
 		this.color = color;
 		this.speed = speed;
 		this.noOfWheels = noOfWheels;
@@ -69,6 +70,20 @@ public class Vehicle {
 
 	public void setNoOfWheels(int noOfWheels) {
 		this.noOfWheels = noOfWheels;
+	}
+
+
+
+
+	public int getId() {
+		return id;
+	}
+
+
+
+
+	public void setId(int id) {
+		this.id = id;
 	}
 	
 	

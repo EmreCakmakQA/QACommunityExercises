@@ -23,9 +23,9 @@ public class Car extends Vehicle {
 			
 			
 			
-			public Car(String color, int speed, int noOfWheels, boolean hasSeatbelts, int passengers,
+			public Car(int id, String color, int speed, int noOfWheels, boolean hasSeatbelts, int passengers,
 					boolean hasHeadlights, String sound) {
-				super(color, speed, noOfWheels);
+				super(id, color, speed, noOfWheels);
 				this.hasSeatbelts = hasSeatbelts;
 				this.passengers = passengers;
 				this.hasHeadlights = hasHeadlights;
@@ -94,6 +94,21 @@ public class Car extends Vehicle {
 			public void setSound(String sound) {
 				this.sound = sound;
 			}
+			
+			public int getId() {
+				return id;
+			}
+
+
+
+
+			public void setId(int id) {
+				this.id = id;
+			}
+
+
+
+			
 			
 			
 			

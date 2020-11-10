@@ -8,6 +8,7 @@ public class Motorcycle extends Vehicle{
 		// Attributes
 		// ========================================
 		
+		
 		private boolean wheelie = true;
 		private String style = "Harley Davidson";
 		private String sound = "BEEP!";
@@ -20,8 +21,8 @@ public class Motorcycle extends Vehicle{
 		// ========================================
 		
 		
-		public Motorcycle(String color, int speed, int noOfWheels, boolean wheelie, String style, String sound) {
-			super(color, speed, noOfWheels);
+		public Motorcycle(int id, String color, int speed, int noOfWheels, boolean wheelie, String style, String sound) {
+			super(id, color, speed, noOfWheels);
 			this.wheelie = wheelie;
 			this.style = style;
 			this.sound = sound;
@@ -98,6 +99,20 @@ public class Motorcycle extends Vehicle{
 		public void setSound(String sound) {
 			this.sound = sound;
 		}
+
+		public int getId() {
+			return id;
+		}
+
+
+
+
+		public void setId(int id) {
+			this.id = id;
+		}
+
+
+		
 		
 		
 		
