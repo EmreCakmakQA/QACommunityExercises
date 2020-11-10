@@ -39,7 +39,7 @@ public class Motorcycle extends Vehicle{
 		
 
 		public void popAWheelie() {
-			if(wheelie) {
+			if(wheelie == true) {
 				System.out.println("Doing a wheelie!");
 			}
 		}
