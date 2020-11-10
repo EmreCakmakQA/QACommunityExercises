@@ -2,7 +2,7 @@ package com.qa.community.javabeginner.conditionals;
 
 public class Blackjack {
 
-	public static void main(String[] args) {
+	public static void init() {
 		// TODO Auto-generated method stub
 
 //		blackjack (10, 21) -> 21

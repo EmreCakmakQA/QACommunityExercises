@@ -2,7 +2,7 @@ package com.qa.community.javabeginner.conditionals;
 
 public class qaConditionalsExercises {
 
-	public static void main(String[] args) {
+	public static void init() {
 		// TODO Auto-generated method stub
 		
 		
