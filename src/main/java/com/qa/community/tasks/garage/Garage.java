@@ -32,6 +32,9 @@ public class Garage {
 	
 	
 	
+	
+	
+	
 	public void calculateCost(ArrayList<Vehicle> list) {
 		int pricePerWeek;
 		for(Vehicle handle : list) {
