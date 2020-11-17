@@ -2,9 +2,9 @@ package com.qa.community.tasks.garage;
 
 import java.util.ArrayList;
 
-import com.qa.community.tasks.garage.vehicles.Bicycle;
-import com.qa.community.tasks.garage.vehicles.Car;
-import com.qa.community.tasks.garage.vehicles.Motorcycle;
+//import com.qa.community.tasks.garage.vehicles.Bicycle;
+//import com.qa.community.tasks.garage.vehicles.Car;
+//import com.qa.community.tasks.garage.vehicles.Motorcycle;
 
 public class Garage {
 	
